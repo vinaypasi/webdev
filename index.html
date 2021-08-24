@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Santulan</title>
+        <style >
+        
+        body{
+            background:  linear-gradient(#ff9933b0,white,#13880886);
+            background-attachment: fixed; 
+        }
+        #header{
+            margin: 10px;
+            height: 100px;
+        }
+        #title{
+            float: left;
+            border: white;
+            text-decoration: none;
+            border-radius: 40px;
+            border-style:inset  ;
+            padding: 10px 20px;
+            font-size: 40px;
+            font-family:serif ;
+            font-weight: bold;
+            color: rgb(117, 52, 52);
+            background-color: rgb(52, 52, 250);
+        }
+        #searchbox{
+            float: right;
+            margin-top: 10px;
+            margin-right: 20px;
+            padding-top: 10px;
+            border-color: crimson;
+            border-radius: 5px;
+            height: 45px;
+            font: italic;
+            background: linear-gradient()
+        }
+        #bodypart{
+            width:fit-content;
+            border-color: black;
+            border-style:solid ;
+            border-width: 2px;
+        }
+        #navpanel{
+            align-self: center;
+            border-style:solid;
+            border-color: blue;
+            background:linear-gradient(rgb(18, 223, 18),white)
+        }
+        #navpanel ul{
+            text-align: center;
+            padding-right: 60px;
+
+        }
+        #navpanel ul li {
+            display:inline-block;
+            text-align: center;
+            list-style: none;
+            border-right: 2px solid;
+            border-color: black ;
+            font-size: 30px;
+            text-decoration: none;
+
+        }
+
+        #navpanel ul li a{
+            padding: 0px 40px;
+            text-decoration: none;
+        }
+        #navpanel ul li a:active{
+            padding: 0px 20px;
+            text-decoration: none;
+            color: rgb(202, 65, 65);        
+        }
+    </style>  
+</head>
+<body>
+    <div id="header">
+        <h1>
+            <a href="index.html" id="title">
+            SANTULAN
+            </a>
+        </h1>
+        <form action="" method="GET" id="searchbox">
+            <input type="text" class="sb" role="searchbox" placeholder="Search Here" >
+            <input type="submit" class="sb" value="Search">
+        </form>
+    </div>
+    <div id="navpanel">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="https://www.google.com">Donate Here</a></li>
+                <li><a href="#">Track</a></li>
+                <li><a href="#">Consult</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">test list</a></li>
+              </ul>
+        </nav>
+    </div>
+</body>
+</html>
